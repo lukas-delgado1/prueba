@@ -1,0 +1,41 @@
+:root {
+	--color-1-type: green;
+	--color-2-type: cyan;
+	--color-3-type: purple;
+}
+
+.container{
+	background-color: var(--color-3-type);
+	width: 100%;
+	height: 98vh;
+	overflow: hidden;
+	vertical-align: center;
+	text-align: center;
+}
+.cardInfo {
+	background-color: var(--color-2-type);
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+}
+.cardPersonal{
+	margin: auto;
+	background-color: var(--color-1-type);
+	margin-top: 15%;
+	width: 20%;
+	height: 12vh;
+	overflow: hidden;
+	border-radius: 25px 25px;
+	transition: width 2s,height,2s;
+}
+.cardImagen img{
+	width: 20%;
+	height: 20%;
+	border-radius: 25px 25px;
+}
+.cardPersonal:hover{
+	color: brown;
+	width: 50%;
+	height:70%;
+	background-color: var(--color-2-type);
+	transition: width,2s height,2s;
